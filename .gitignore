@@ -1,0 +1,65 @@
+# =========================
+# Build output
+# =========================
+build/
+bin/
+out/
+target/
+
+# =========================
+# Logs and temp files
+# =========================
+*.log
+*.tmp
+*.temp
+*.swp
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE/editor local files
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# Eclipse workspace metadata (machine-specific)
+.settings/
+
+# =========================
+# Java bytecode and archives
+# =========================
+*.class
+*.war
+*.ear
+
+# =========================
+# Node artifacts (if frontend tooling is added later)
+# =========================
+node_modules/
+
+# =========================
+# Test/report artifacts
+# =========================
+coverage/
+*.lcov
+
+# Keep source, JSP, and dependency jars under WEB-INF/lib tracked.
+# Do NOT ignore: src/main/webapp/WEB-INF/lib/
+
+
+# =========================
+# Java dependencies (should NOT be committed)
+# =========================
+*.jar
+*.war
+*.ear
+
+# Ignore lib folder
+src/main/webapp/WEB-INF/lib/
+
+db.properties
