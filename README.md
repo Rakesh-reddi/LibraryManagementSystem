@@ -2,6 +2,23 @@
 
 A Java Servlet + JSP based web application for managing library operations such as authentication, books, users, book issuance, returns, and dashboard reporting.
 
+## Live Demo
+
+Open the hosted app in your browser:
+
+**https://affected-really-several-evaluating.trycloudflare.com/LibraryManagementSystem/**
+
+Sign in with these demo credentials:
+
+| Field | Value |
+|---|---|
+| Username | `admin@library.com` |
+| Password | `admin123` |
+
+The login form label says Username, but enter the **email** above.
+
+These same credentials are seeded by `sql/schema.sql` for local runs.
+
 ## Features
 
 - Login/logout with session-based authentication
